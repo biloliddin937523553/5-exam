@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+form{
+    background: #000;
+    width: 500px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 30px;
+}
+.div0{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.div{
+    display: flex;
+}
+.div .p{
+    color: white;
+}
+.div p {
+    color: rgb(197, 197, 197);
+}   
+.task{
+    color: grey;  
+}
+.Clear{
+    margin-left: 380px;
+    margin-top: -50px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius:20px ;
+    padding: 5px;
+    cursor: pointer;
+}
+.div2{
+    background: rgb(37, 37, 37);
+    width: 100%;
+
+    padding-bottom: 100px;
+    border-radius: 30px;    
+}
+.div3{
+    display: flex;
+
+}
+.div3 input{
+    width: 100%;
+    background: #000;
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+}
+#addBtn{
+    background: rgb(2, 221, 255);
+    width: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.check{
+    text-decoration: line-through;
+    color: red;
+}
